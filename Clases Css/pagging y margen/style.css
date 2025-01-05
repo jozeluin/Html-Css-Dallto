@@ -1,0 +1,32 @@
+.formulario {
+    background: #ff0000;
+    padding: 30px ;/*top,right,bottom,left*/
+    /*si pongo solo dos es vertical y horizontal*/
+}
+.formulario_input {
+    padding:10px 10px;
+    width: 90%;
+    margin: 10px;
+}
+
+.formulario_submit{
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    background: purple;
+    color: white;
+    width: 30%;
+    
+
+}
+.box1{
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    background: green;
+}
+.box2{
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    background: green;
+}

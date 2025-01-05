@@ -1,0 +1,68 @@
+1:11:13 Enlaces
+1:26:00 Imágenes
+1:33:00 Rutas
+1:41:00 Formularios
+
+CCs
+1:56:00
+2:08:00 Selectores
+2:18:00 propiedades de texto
+2:44:00 Tipografías externas
+2:55:00 Modelo de caja
+3:07:00 Relleno y Margen
+3:32:00 Bordes, Mini ejercicio
+3:37:00 Bordes
+3:53:00 Tamaño de caja
+4:01:00 Colores
+4:17:00
+4:25:00	Unidades de medida
+5:06:00 Gradientes
+5:16:00 Sombras
+5:31:00 Ejercicio Practico, Tarjeta Presentación
+
+HTML, Avanzado
+5:38:00 Metaetiquetas , comentarios e iconos
+5:52:00 Te dice una url donde se puede hacer para varias plataformas a la vez
+5:57:00 TextAreas
+6:17:00 Labels
+6:34:00 Fieldset y Legends. Antes Select Datalist y options
+6:44:00 Details y summary.
+6:51:00 Enlaces avanzado
+7:04:00 Tablas
+7:22:00 Audio y Video
+7:39:00 HTML Obsoleto
+7:49:00 HTML Semantico
+7:57:00 Accesibilidad Web
+
+
+CSS, Intermedio
+8:20:00 Selectores Avanzados
+8:36:00 Herencia
+9:03:00
+9:21:00 Is where has
+9:30:00 PseudoElementos
+10:03:00 Posición Relativa
+10:15:00 Posición Absoluta
+10:26:00 Ventana Modal
+10:43:00 Transiciones
+10:56:00 Overflow-Desbordamiento
+11:01:00 Control de flujo de texto
+11:11:00 Objetct fit y object position
+11:16:00 Outline, contorno
+11:25:00 Emmet
+
+Css-Flexbox
+11:43:00 Introducción a Flexbox
+11:56:00 Flex Direction
+12:08:00 Flex Wrap Flex Flow
+12:17:00 Alineación en los ejes
+12:34:00 Order
+12:41:38 Flex Basis,Shrink y grow
+12:59:00 Align Self
+13:02:42 Layout con Flexbox
+
+Responsive Design
+13:35:25 Bloques y Multimedia Flexible
+13:45:00 Multimedia Flexible
+13:56:00 Atributos SRCSET Y SIZES
+14:10:00 Picture, Source y Media

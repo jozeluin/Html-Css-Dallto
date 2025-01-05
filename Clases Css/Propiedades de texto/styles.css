@@ -1,0 +1,13 @@
+p{
+    color: blueviolet;
+    font-family:Dalto;
+    font-size: 13px;
+    font-weight: 900;
+    font-style: oblique;
+    text-align: start;
+    text-decoration:underline;
+    line-height: 1.5; /* entre lineas*/
+    letter-spacing: 4px;/*separacion entre letras*/
+    text-transform:capitalize;
+    
+}

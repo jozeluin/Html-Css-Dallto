@@ -1,0 +1,38 @@
+
+/* img[src="cechan.jpg"] asi buscamos ese archivo
+img[src$="jpg"] asi buscamos un archivo que termine con esa terminacion
+img[src^="cec"] asi buscamos un archivo que empieze con esas letras
+
+*/
+
+
+img[src^="cec"]{
+
+    width: 100%;
+}
+/*Seleccion Descendente*/
+ul li{
+    color:blue
+}
+
+/*Selector por hijo directo*/
+/*seleccion un strong que es un hijo directo de ul*/
+li > em{ 
+    color: red;
+}
+/*Selector hermanos adyacente*/
+
+h1 + p{
+    color:blue
+}
+
+/* Selector de hermanos generales*/
+
+h1 ~ p{
+    color:blue
+}
+
+/*Seleccion multiple
+h1, p {
+    color:chartreuse
+}*/

@@ -1,0 +1,10 @@
+#titulo{
+    color:greenyellow
+}
+
+.titulo{
+    color: rebeccapurple;
+}
+h1{
+    color:blue !important /*important lo que tiene mas prioridad*/
+}

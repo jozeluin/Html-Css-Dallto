@@ -1,0 +1,41 @@
+section .elemento1,
+section .elemento2,
+section .elemento3 {
+  color: red;
+}
+
+/*is Agrupa,con especifidad mayor que el where*/
+section :is(.elemento1, .elemento2, .elemento3) {
+  color: blue;
+}
+
+/* section :where(.elemento1,.elemento2,.elemento3){
+    color: blue;
+} */
+
+/*Si tiene un "elemento1", pinta de negro el fondo*/
+/* section:has(.elemento1){
+    background-color: #000;
+    color: #fff;
+
+} */
+
+/*Donde haya un div precedido de un ul, transformamos el div*/
+ul + div{
+background-color: #000;
+}
+/*Donde haya un ul que le siga un div, para transformar el ul*/
+ul:has(+div){
+    background-color: green;
+}
+
+/*Para cambiar el color de la etiqueta email
+cuando el input se correcto o incorrecto
+*/
+
+label:has(input:valid), input:valid{
+    color:green
+}
+label:has(input:invalid),input:invalid{
+    color:red
+}

@@ -1,0 +1,32 @@
+/* h1{
+   
+    color: red;
+}
+p{
+   
+    color:blue;
+} */
+body{
+    color: rgb(15, 32, 222);
+}
+div{
+  
+    font-family: sans-serif;
+}
+div{
+    color: red;
+    width: 10%;
+}
+
+/*inherit: Hereda
+unset:Restablece el valor inicial, y 
+si no lo hereda
+revert: Intenta encontrar el estilo del usuario, si no puede lo revierte a
+inherit
+
+*/
+h1{
+    color:unset;
+    font-family: initial;
+   
+}

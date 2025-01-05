@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+}
+
+.box{
+        width: 280px;
+       
+        background: #e2e2e2;
+        margin:auto;
+        padding: 20px;
+        padding-top: 10px;
+        text-align: justify;
+        color: #444;
+        margin-top: 50px;
+        box-shadow: 0px 0px 10px 0px #0007;
+        box-sizing: border-box;
+        text-align: center;
+    
+}
+p{
+    list-style-type: style none;
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 14px;
+    text-shadow: 0 0 4px #f88;
+}
+img{
+    width: 160px;
+    filter:drop-shadow(0px 0px 30px #e06207)
+   
+}
+h1{
+    font-size: 20px;
+    margin-top: 5px;
+    color: #777;
+    letter-spacing: 3px;
+    text-shadow: 0 0 1px #f88;
+
+}
+

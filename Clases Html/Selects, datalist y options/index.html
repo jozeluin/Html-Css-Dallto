@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Select, DataList y Options</title>
+    <link rel="stylesheet" href="syle.css" />
+  </head>
+  <body>
+    <form>
+      <h2>Formulario de contacto</h2>
+      <!-- Simple inputs -->
+      <div class="form_input">
+        <label
+          >Nombre Completo
+          <input type="text" placeholder="Jose Luis Perez" />
+        </label>
+      </div>
+
+      <div class="form_input">
+        <label
+          >Email
+          <input type="email" placeholder="jozeluin@gmail.com" />
+        </label>
+      </div>
+      <!-- Select + option -->
+      <div class="form_input">
+        <label
+          >Tipo de usuario
+          <select name="type-of-user">
+            <option value="user1">Seguidor</option>
+            <option value="user2">Empresa</option>
+            <option value="user3">Otros</option>
+          </select>
+        </label>
+      </div>
+      <!--Datalist + Option -->
+      <div class="form_input">
+        <label>Referente
+            <input list="referente">
+          <datalist id="referente"   name="type-of-user">
+            <option value="Soy JL">Un creador</option>
+            <option value="user2">Una empresa</option>
+            <option value="user3">Un amigo</option>
+          </datalist>
+        </label>
+      </div>
+
+
+      <!-- Textarea -->
+      <div class="form_input">
+        <!--Otra forma de etiquetar-->
+        <label for="mensaje">Mensaje</label>
+        <textarea
+          rows="6"
+          placeholder="Deja tu mensaje"
+          id="mensaje"
+        ></textarea>
+      </div>
+
+      <div class="chekbox">
+        <label>
+          Acepto los terminos
+          <input type="checkbox" class="chexbox" />
+        </label>
+      </div>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,82 @@
+h1{
+color:blue
+}
+
+/*Cuando se pasa el mouse por encima de h1*/
+h1:hover{
+
+color:#000;
+background-color: #ccc;
+}
+/*Cuando se hace click encima de h1*/
+h1:active{
+background-color: #999;
+color:#fff
+}
+/*Seleccionamos todos*/
+/* li{
+    color: red;
+} */
+ /*Seleccionamos el primero*/
+li:first-child{
+color: red;
+}
+
+ /*Seleccionamos el ultimo*/
+li:last-child{
+    color: red;
+}
+
+ /*Seleccionar uno que no sea ni el primero ni el segundo*/
+ li:nth-child(3){
+    color: rgb(68, 238, 111);
+}
+/*Seleccionar de cada 3 elementos uno*/
+li:nth-child(3n){
+    color: rgb(246, 23, 171);
+}
+/*No cuento los elementos externos a li*/
+li:nth-of-type(3){
+    color:#490de0
+}
+/*para excluir un elemento*/
+.lista li:not(.excluir){
+    color:#fff
+}
+
+div{
+    border:2px solid black
+}
+/*Solo si esta vacio ejecuta los comandos*/
+div:empty{
+   border:none
+}
+input[type="checkbox"]{
+    margin: 50px;
+}
+/*Si esta chekeado hace la accion*/
+input[type="checkbox"]:checked{
+    margin: 0px;
+}
+
+/*Seleccionando enlaces no visitados*/
+a:link {
+    color:red
+}
+
+
+
+/*Seleccionando enlaces  visitados*/
+a:visited {
+    color:green
+}
+
+/*para colorear un input valido o no, segun su tipo*/
+
+input:valid{
+    color:green
+}
+input:invalid{
+    color:red
+}
+

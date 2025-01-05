@@ -1,0 +1,11 @@
+{
+    "workbench.colorTheme": "Palenight (Mild Contrast)",
+    
+    "liveServer.settings.CustomBrowser": "chrome",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "editor.minimap.enabled": false,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "explorer.confirmDragAndDrop": false
+}

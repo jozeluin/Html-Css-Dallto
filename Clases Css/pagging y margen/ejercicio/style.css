@@ -1,0 +1,28 @@
+
+body{
+    background-color: black;
+    font-family: sans-serif;
+    color: white;
+}
+.card{
+    background: brown;
+    text-align: center;
+    width: 400px;
+    margin:auto;
+    margin-top: 20px;
+}
+h1{
+    padding-top: 25px;
+    margin: 0;
+}
+h2{
+    font-size: 20px;
+    font-weight:100px ;
+    letter-spacing: 3px;
+}
+p{
+    font-size:12px ;
+    padding: 20px;
+    background-color: lightcoral;
+    text-align:justify;
+}
