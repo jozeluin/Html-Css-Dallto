@@ -6,10 +6,13 @@
 </head>
 <body>
     <picture>
-       <source srcset="cerdo-grande.png">
-       <source srcset="cerdo-med.png">
+       <!-- <source srcset="cerdo.webp"
+        type="image/webp">--> 
+       <source media="(max-width: 600px)"
+       srcset="cerdo-grande.png">
+       <source media="(max-width:400px)" 
+       srcset="cerdo-med.png">
        <img src="cerdo-peq.png" alt="">
-
     </picture>
     
 </body>
