@@ -28,6 +28,7 @@ p {
 }
 .main-wrapper{
     max-width: 1024px;
+    flex-direction: column;
 }
 
 .main-navbar ul{
@@ -94,6 +95,7 @@ main{
 }
 aside:last-child{
     min-width: 10rem;
+    display: none;
 }
 
 /* FOOTER */
@@ -107,13 +109,18 @@ footer{
     text-align: center;
 }
 
-@media screen and (max-width: 600px){
-    aside:last-child{
-        display: none;
-    }
-}
-@media screen and (max-width: 480px){
-   .main-wrapper{
-    flex-direction: column;
+@media screen and (min-width: 480px){
+    
+       .main-wrapper{
+    flex-direction: row;
    }
+    
+}
+@media screen and (min-width: 800px){
+ aside:last-child{
+        display:block;
+
+
+
+     }
 }
