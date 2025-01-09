@@ -71,3 +71,9 @@ Responsive Design
 14:48:36 - Mobile First
 14:55:08 - Feature Queries
 14:59:01 - Container Queries
+
+Grid
+15:05:11 - Introducción a Grid
+15:12:00 - Creando un Grid
+15:24:55 - Unidades "Auto" y "Fr"
+15:34:24 - Repeat() y Minmax()
