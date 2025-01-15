@@ -80,4 +80,5 @@ Grid
 15:42:00 - Grid Implicito Explicito
 15:48:00 - Grid Gap
 15:53:00 - Grid Dinamico y responsive
-15:58
+16:09:00 - Grid Row, Grid Column
+16:04:54 - Grid column y Grid row
