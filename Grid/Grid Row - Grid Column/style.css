@@ -19,6 +19,7 @@ grid-auto-columns:1fr;
 gap: 10px;
 /*column-gap: 10px;
 row-gap: 20px;*/
+padding: 10px;
 
 margin: auto;
 
@@ -27,10 +28,28 @@ margin: auto;
 }
 .grid-item{
     background-color: #48e;
-  margin: 10px;
+
     font-size: 30px;
  border-radius: 12px;
     max-width: 100%;
+}
+.grid-item:first-child{
+    /* Formato reducido 
+    grid-colum:1/span 2;
+    
+    grid-column-start: 2;
+    grid-row-start: 2;
+     grid-column-end: 3;
+    grid-row-end: 3;
+    grid-column-end: span 3;/*Lo que ocupa
+    grid-row-end: span 2;
+    */
+    grid-column:1/span 2;
+    grid-row: 1/span 2;
+
+    background-image: url("cerdo_peq.png");
+    background-size: cover;
+    background-position: center;
 }
 
 .grid-item:hover{
