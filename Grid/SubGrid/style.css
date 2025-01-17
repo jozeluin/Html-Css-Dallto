@@ -1,0 +1,43 @@
+body, div{
+    box-sizing: border-box;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows:repeat(3, 1fr) ;
+    gap:10px;
+    padding: 10px;
+    justify-items: stretch;/*IZ a Dcha*/
+    justify-content:space-evenly;/*justify eje horizontal*/
+    align-items:stretch;/*align eje vertical*/
+    align-content:space-evenly;
+  
+    border: 2px solid #000;
+    margin: 20px;
+  
+}
+.grid-item:first-child{
+   background-color: red;
+   grid-area: 2/2/span 2/span 2;
+}
+
+
+.grid-item{
+    background-color: #48e;
+    color: #fff;
+    font-size: 30px;
+    max-width: 100%;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+   
+
+
+}
+
+.grid-item:hover{
+    opacity: 0.74;
+}
