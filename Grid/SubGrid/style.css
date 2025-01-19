@@ -12,16 +12,34 @@ body, div{
     justify-content:space-evenly;/*justify eje horizontal*/
     align-items:stretch;/*align eje vertical*/
     align-content:space-evenly;
-  
     border: 2px solid #000;
     margin: 20px;
   
 }
 .grid-item:first-child{
-   background-color: red;
-   grid-area: 2/2/span 2/span 2;
+
+   grid-area: 3/1/span 2/span 2;
+   display: grid;
+   grid-template-columns: subgrid;
+   grid-template-rows: subgrid;
+   gap: 10px;
+   padding: 0;
+   background-color: transparent;
 }
 
+.subgrid-item{
+    background-color: #e66;
+    padding: 20px;
+    border-radius:18px ;
+    text-align: center;
+    width: 300px;
+
+}
+.subgrid-item:first-child{
+    order:2;
+    background-color: #8e4;
+    width: 350px;
+}
 
 .grid-item{
     background-color: #48e;
@@ -31,7 +49,6 @@ body, div{
     border-radius: 16px;
     display: flex;
     justify-content: center;
-    align-items: center;
     padding: 20px;
    
 
