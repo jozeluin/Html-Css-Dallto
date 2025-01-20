@@ -87,4 +87,4 @@ Grid
 16:35:00 - Alineación con Grid
 16:53:00 - SubGrid
 17:02:00 - Creando una pagina web
-17:18:25
+17:29:18-
