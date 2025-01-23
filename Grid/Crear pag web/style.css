@@ -24,7 +24,9 @@ body, div, ul, nav, header, footer, a, li, label {
     container-type: inline-size;
     container-name: header;
     position: relative;
-    z-index: 4;
+    z-index: 10;
+    text-align: center;
+    font-size: 20px;
 }
 
 .header__open-nav-button{
@@ -46,7 +48,7 @@ body, div, ul, nav, header, footer, a, li, label {
     height: 100vh;
     width: 100vw;
     top: 0;
-    z-index: 10;
+    z-index: -1;
 }
 
 .header__nav-list{
@@ -307,5 +309,9 @@ h1{
 
 
 /*--------- PORTFOLIO ENDS -------*/
+
+/*--------- CONTACT  SECTION -------*/
+
+
 
 
