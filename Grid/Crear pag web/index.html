@@ -17,13 +17,13 @@
       </div>
       <nav class="header__nav">
         <ul class="header__nav-list">
-          <li class="header__nav-item"><a href="#">About</a></li>
-          <li class="header__nav-item"><a href="#">Portfolio</a></li>
-          <li class="header__nav-item"><a href="#">Contact</a></li>
+          <li class="header__nav-item"><a href="#profile">About</a></li>
+          <li class="header__nav-item"><a href="#porfolio">Portfolio</a></li>
+          <li class="header__nav-item"><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
-    <main class="profile">
+    <main class="profile" id="profile">
       <div class="profile__wrapper">
         <div class="profile__img-container">
             <img src="cerdo_peq.png" class="profile__img">
@@ -81,7 +81,7 @@
 
     </main>
 
-    <section class="porfolio"> 
+    <section class="porfolio" id="porfolio"> 
       <h2 class="porfolio__title">PORTFOLIO SECTION</h2>
       <div class="porfolio__project-container">
         <div class="porfolio__project">
@@ -104,30 +104,38 @@
         </div>
       </div>
     </section>
-    <section class="form">
+    <section class="form" id="contact">
       <h2 class="form__title">CONTACT</h2>
       <form class="form__form">
         <div class="form__input-container">
           <label>Nombre
-             <input type="text" placeholder="John Doe"> 
+             <input type="text" placeholder="John"> 
           </label>
         </div>
         <div class="form__input-container">
           <label>Apellido
-             <input type="text" placeholder="John Doe"> 
+             <input type="text" placeholder="Doe"> 
           </label>
         </div>
         <div class="form__input-container">
           <label>Mail
-             <input type="email" placeholder="John Doe"> 
+             <input type="email" placeholder="mail@example.com"> 
           </label>
         </div>
         <div class="form__input-container">
           <label>Mensaje
-             <input type="text" placeholder="John Doe"> 
+             <textarea placeholder="Your message"></textarea>
           </label>
+        </div>
+        <div class="form__input-container">
+          <input type="submit">
         </div>
       </form>
     </section>
+    <footer>
+        <strong>COCHAN 13</strong> - Copyright
+    </footer>
+
+
   </body>
 </html>
