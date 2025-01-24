@@ -90,4 +90,5 @@ Grid
 
 Animaciones
 18:02:00 - Transiciones (repaso)
-18:06
+18:13:00 - Animaciones 
+18:22.30
