@@ -18,16 +18,22 @@ div{
     border-radius: 30px;
     width: 10%;
     animation-name: llenar-barra;
-    animation-duration: 5s;
+    animation-duration: 1s;
     animation-delay: 1s;
-    animation-fill-mode: forwards;
+    animation-fill-mode: both;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 
+}
+.barra:active{
+    animation-play-state: paused;
 }
 
 @keyframes llenar-barra{
     from{
-        width: 30%;
-        background-color: #f33;
+        width: 0%;
+       
     }
     to{
         width: 100%;

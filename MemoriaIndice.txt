@@ -91,4 +91,6 @@ Grid
 Animaciones
 18:02:00 - Transiciones (repaso)
 18:13:00 - Animaciones 
-18:22.30
+18:29:00 - Botones Animados
+18:46:00 - Efecto typerwriter
+18:52:54 - Animaciones Basadas en Scroll
