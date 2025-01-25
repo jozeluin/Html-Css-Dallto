@@ -94,3 +94,4 @@ Animaciones
 18:29:00 - Botones Animados
 18:46:00 - Efecto typerwriter
 18:52:54 - Animaciones Basadas en Scroll
+19:03:00 - Animaciones Basadas en Scroll2

@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    background-color: #ccc;
+    height: 200vh;
+    scroll-timeline-name: --body;
+    scroll-timeline-axis: block;
+    /* redudido
+    scroll-timeline: --body block
+    */
+}
+*{
+    box-sizing: border-box;
+}
+
+div{
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+@keyframes llenar-barra{
+    from{
+        width: 0%;
+       
+    }
+    to{
+        width: 100%;
+        background-color: #f33;
+    }
+
+
+}
