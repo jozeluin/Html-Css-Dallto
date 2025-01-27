@@ -1,0 +1,62 @@
+/*Otra manera de representar
+la variable de forma global*/
+:root {
+    --tercer-color: rgb(30, 30, 161);
+}
+
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    padding: 20px;
+ --color-principal:#f44;
+ --tamaño-principal:2.4rem;
+}
+*{
+    box-sizing: border-box;
+}
+.box {
+   
+    display: grid;
+    place-content: center;
+    color: #fff;
+    margin: 120px auto;
+    font-size: 30px;
+    padding: 0 40px;
+   font-size: clamp(var(--tamaño-principal),2vw,4rem);
+    border:6px solid #000;
+    --color-principal:#48e;
+
+}
+.box:first-child{
+    background-color: var(--color-principal);
+}
+.box:nth-child(2){
+    color: var(--color-principal);
+    border:6px solid var(--color-principal)
+}
+
+.box p{
+    
+    color:var(--color-secundario)
+}
+
+
+
+h1{
+    font-size: 2.2em;
+    margin-bottom: 0;
+}
+
+body > p {/*Hijo directo del Body*/
+    color: var(--color-principal);
+    font-size: 60px;
+}
+
+
+/*Creamos una propiedad nueva*/
+@property --color-secundario {
+    syntax: "<color>";
+    inherits: false;
+    initial-value: rgb(34, 221, 40);
+}

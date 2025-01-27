@@ -103,5 +103,10 @@ Web Hosting
 
 CCS Avanzado
 20:09:16 - Filter y Backdrop Filter
+20:29:00 - Transform
+20:40:54 - Min, Max y Clamp
+20:54:26 - Variables (custom properties)
+21:05:00 - Funcion Calc().
+
 
 
