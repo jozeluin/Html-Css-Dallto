@@ -21,12 +21,15 @@ div{
 }
 
 .box {
+    height: 500px;
     view-timeline: --cajita block;
     background-color: #48e;
     padding: 20px;
-    animation: llenar-barra;
+    animation: llenar-barra both;
     animation-timeline: --cajita;
     animation-timing-function: linear;
+    animation-range-start: cover -20%;
+    animation-range-end: contain 100%;
 }
 
 
@@ -36,11 +39,11 @@ div{
 
 @keyframes llenar-barra{
     from{
-        width: 0%;
+        opacity: 0%;
        
     }
     to{
-        width: 100%;
+        opacity: 100%;
         background-color: #f33;
     }
 

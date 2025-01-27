@@ -95,3 +95,13 @@ Animaciones
 18:46:00 - Efecto typerwriter
 18:52:54 - Animaciones Basadas en Scroll
 19:03:00 - Animaciones Basadas en Scroll2
+19:07:36 - Rango de animaciones
+19:17:34 - Integrando Animaciones en una web
+
+Web Hosting
+19:31:07 - Introducción al WEB HOSTING
+
+CCS Avanzado
+20:09:16 - Filter y Backdrop Filter
+
+
