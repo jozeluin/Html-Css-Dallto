@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+    width: 100%;
+    overflow: hidden;
+}
+
+.box{
+    font-size: 30px;
+    width: fit-content;
+    padding: 320px;
+    margin-bottom: 10px;
+    background-color: color-mix(in srgb, red 60%, blue 50%);
+   
+}
+.box2{
+    font-size: 30px;
+    width: fit-content;
+    padding: 320px;
+    background-color: color-mix(in srgb, red 10%, blue 50%);
+   
+}
+
+
+

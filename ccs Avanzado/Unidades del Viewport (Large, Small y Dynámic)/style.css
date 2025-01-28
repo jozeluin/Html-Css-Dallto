@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.box{
+    font-size: 30px;
+    padding: 0 40px;
+    border: 2px solid #f44;
+    height: 10dvh;
+    
+   
+}
+p::first-letter{
+    initial-letter: 3 2;
+    padding: 2px;
+    padding-bottom: 0;
+    padding-left: 2px;
+    color:blueviolet;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
