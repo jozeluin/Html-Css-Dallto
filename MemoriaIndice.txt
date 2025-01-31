@@ -114,6 +114,7 @@ CCS Avanzado
 
 Proyectos Finales
 21:49:41 - Sidebar Menu & Chatbox (proyecto 1 y 2)
-22:27:00
+22:32:00 - Fin Proyecto Side bar
+22:32:20 - Caja comentarios, Chatbox
 
 

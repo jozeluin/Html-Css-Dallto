@@ -152,6 +152,10 @@ input[type="checkbox"] {
     right: -1rem;
 }
 
+.sidebar__form .open-button {
+    display: none;
+}
+
 .sidebar label{
     position: relative;
     color: var(--sidebar-color);
@@ -197,7 +201,28 @@ input[type="checkbox"]:checked ~ label::before {/*K sea hermano*/
    display:none ;
 }
 
+.sidebar:has(input[type="checkbox"]:checked) .sidebar__picture img
+{
+    max-width: 3rem;
+   
+}
+.sidebar:has(input[type="checkbox"]:checked) .sidebar__picture
+{
+    margin-left: 0;
+   
+}
 .sidebar:has(input[type="checkbox"]:checked){
+    width: fit-content;
+}
+.sidebar:has(input[type="checkbox"]:checked) .sidebar__form label {
+    display: none;
+}
+
+.sidebar:has(input[type="checkbox"]:checked) .sidebar__form .open-button{
+    display: block;
+}
+.sidebar:has(input[type="checkbox"]:checked) .sidebar__form{
+    top:4.8rem;
     width: fit-content;
 }
 
